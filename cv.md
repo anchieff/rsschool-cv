@@ -3,6 +3,7 @@
 ## Contacts
 
 **Email:** info@annanekrasova.ru
+
 **Telegram:** @webnekrasova
 
 ## Profile
@@ -39,21 +40,23 @@ close = document.querySelector('.popup\_\_closed');
 
 #### Personal portfolio site
 
-**Link** https://annanekrasova.ru/
-**GitHub** https://github.com/anchieff/annanekrasova
+**Link** <https://annanekrasova.ru/>
+
+**GitHub** <https://github.com/anchieff/annanekrasova>
 
 #### StroyControl site
 
-**Link** https://stroycontrol.annanekrasova.ru/
-**GitHub** https://github.com/anchieff/stroycontrol
+**Link** <https://stroycontrol.annanekrasova.ru/>
+
+**GitHub** <https://github.com/anchieff/stroycontrol>
 
 #### ToDo App on React
 
-**GitHub** https://github.com/anchieff/ToDo-App-on-React
+**GitHub** <https://github.com/anchieff/ToDo-App-on-React>
 
 #### RunSmart site
 
-**GitHub** https://github.com/anchieff/runsmart
+**GitHub** <https://github.com/anchieff/runsmart>
 
 ## Courses
 
