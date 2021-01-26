@@ -11,3 +11,38 @@ I can work both in a team and independently.I approach my duties responsibly.I l
 
 ##Skills
 HTML, CSS, JavaScript, BEM, Git, React, Redux, Gulp, Webpack
+
+##Sample Code
+
+```
+let more = document.querySelectorAll('.popup-link'),
+popup = document.querySelector('.popup'),
+close = document.querySelector('.popup\_\_closed');
+
+    more.forEach(function(item, i) {
+        more[i].addEventListener('click', function() {
+            popup.style.display = 'block';
+            document.body.style.overflow = 'hidden';
+        });
+    });
+
+    close.addEventListener('click', function() {
+        popup.style.display = 'none';
+        document.body.style.overflow = '';
+    });
+```
+
+##Projects
+####Personal portfolio site
+**Link** https://annanekrasova.ru/
+**GitHub** https://github.com/anchieff/annanekrasova
+
+####StroyControl site
+**Link** https://stroycontrol.annanekrasova.ru/
+**GitHub** https://github.com/anchieff/stroycontrol
+
+####ToDo App on React
+**GitHub** https://github.com/anchieff/ToDo-App-on-React
+
+####RunSmart site
+**GitHub** https://github.com/anchieff/runsmart
