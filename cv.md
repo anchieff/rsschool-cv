@@ -46,3 +46,13 @@ close = document.querySelector('.popup\_\_closed');
 
 ####RunSmart site
 **GitHub** https://github.com/anchieff/runsmart
+
+##Courses
+
+1. Modern React with Redux (_Stephen Grider_)
+2. The Complete JavaScript + React Course - From Scratch to Results (_Ivan Petrichenko_)
+3. WEB Developer 2020 (_Ivan Petrichenko_)
+
+##Languages
+**English** B1
+**Spanish** A1
