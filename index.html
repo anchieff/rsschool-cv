@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>CV Anna Nekrasova</title>
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <nav class="header__nav">
+        <ul>
+          <li>
+            <a href="#main">Main</a>
+          </li>
+          <li>
+            <a href="#contacts">Contacts</a>
+          </li>
+          <li>
+            <a href="#profile">Profile</a>
+          </li>
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
+            <a href="#code">Sample Code</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#courses">Courses</a>
+          </li>
+          <li>
+            <a href="#languages">Languages</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main" id="main">
+    <div class="container">
+      <div class="main__wrapper">
+        <img class="main__photo" src="img/photo.jpg" alt="my photo">
+        <div class="maim__content">
+          <h1 class="main__title title">Anna Nekrasova</h1>
+          <div class="main__subtitle">Junior Frontend Developer</div>
+        </div>
+      </div>
+      
+    </div>
+  </main>
+
+  <section class="contacts" id="contacts">
+    <div class="container">
+      <h2 class="title title_h2 contacts__title">Contacts</h2>
+      <div class="contacts__item">
+        Email: 
+        <a href="mailto:info@annanekrasova.ru">info@annanekrasova.ru</a>
+      </div>
+      <div class="contacts__item">
+        Telegram:  
+        <a href="https://t.me/webnekrasova">@webnekrasova</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="profile" id="profiles">
+    <div class="container">
+      <h2 class="title title_h2 profile__title">Profile</h2>
+      <div class="profile__content">
+        Since 2019 I have been developing freelance websites.
+        From October 2020 I am actively learning JavaScript and React on my own and in courses.
+        I can work both in a team and independently.I approach my duties responsibly.I learn new technologies easily and with pleasure.Interested in professional growth.
+      </div>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <div class="container">
+      <h2 class="title title_h2 skills__title">Skills</h2>
+      <div class="skills__content">
+        <div class="skills__item">
+          <h3 class="title title_h3 skills__item-title">HTML</h3>
+          <div class="skills__item-scale"><span></span></div>
+        </div>
+        <div class="skills__item">
+          <h3 class="title title_h3 skills__item-title">CSS</h3>
+          <div class="skills__item-scale"><span></span></div>
+        </div>
+        <div class="skills__item">
+          <h3 class="title title_h3 skills__item-title">JavaScript</h3>
+          <div class="skills__item-scale"><span></span></div>
+        </div>
+        <div class="skills__item">
+          <h3 class="title title_h3 skills__item-title">BEM</h3>
+          <div class="skills__item-scale"><span></span></div>
+        </div>
+        <div class="skills__item">
+          <h3 class="title title_h3 skills__item-title">Git</h3>
+          <div class="skills__item-scale"><span></span></div>
+        </div>
+        <div class="skills__item">
+          <h3 class="title title_h3 skills__item-title">React</h3>
+          <div class="skills__item-scale"><span></span></div>
+        </div>
+        <div class="skills__item">
+          <h3 class="title title_h3 skills__item-title">Redux</h3>
+          <div class="skills__item-scale"><span></span></div>
+        </div>
+        <div class="skills__item">
+          <h3 class="title title_h3 skills__item-title">Gulp</h3>
+          <div class="skills__item-scale"><span></span></div>
+        </div>
+        <div class="skills__item">
+          <h3 class="title title_h3 skills__item-title">Webpack</h3>
+          <div class="skills__item-scale"><span></span></div>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section class="code" id="code">
+    <div class="container">
+      <h2 class="title title_h2 code__title">Sample Code</h2>
+      <pre class="code__content">
+        let more = document.querySelectorAll('.popup-link'),
+        popup = document.querySelector('.popup'),
+        close = document.querySelector('.popup_closed');
+
+        more.forEach(function(item, i) {
+            more[i].addEventListener('click', function() {
+                popup.style.display = 'block';
+                document.body.style.overflow = 'hidden';
+            });
+        });
+
+        close.addEventListener('click', function() {
+            popup.style.display = 'none';
+            document.body.style.overflow = '';
+        });
+      </pre>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="container">
+      <h2 class="title title_h2 projects__title">Projects</h2>
+      <div class="projects__wrapper">
+        <div class="projects__item">
+          <img src="img/portfolio.jpg" alt="personal portfolio site" class="projects__item-img">
+          <h3 class="title title_h3 projects__item-title">Personal portfolio site</h3>
+          <div class="projects__item-link">
+            Link
+            <a href="https://annanekrasova.ru/">https://annanekrasova.ru/</a>
+          </div>
+          <div class="projects__item-link">
+            GitHub
+            <a href="https://github.com/anchieff/annanekrasova">https://github.com/anchieff/annanekrasova</a>
+          </div>
+        </div>
+        <div class="projects__item">
+          <img class="projects__item-img" src="img/stroycontrol.jpg" alt="stroycontrol">
+          <h3 class="title title_h3 projects__item-title">StroyControl site</h3>
+          <div class="projects__item-link">
+            Link
+            <a href="https://stroycontrol.annanekrasova.ru/">https://stroycontrol.annanekrasova.ru/</a>
+          </div>
+          <div class="projects__item-link">
+            GitHub
+            <a href="https://github.com/anchieff/stroycontrol">https://github.com/anchieff/stroycontrol</a>
+          </div>
+        </div>
+        <div class="projects__item">
+          <img class="projects__item-img" src="img/todo.jpg" alt="todo">
+          <h3 class="title title_h3 projects__item-title">ToDo App on React</h3>
+          <div class="projects__item-link">
+            GitHub
+            <a href="https://github.com/anchieff/annanekrasova">https://github.com/anchieff/ToDo-App-on-React</a>
+          </div>
+        </div>
+        <div class="projects__item">
+          <img class="projects__item-img" src="img/smartrun.jpg" alt="runsmart">
+          <h3 class="title title_h3 projects__item-title">RunSmart site</h3>
+          <div class="projects__item-link">
+            GitHub
+            <a href="https://github.com/anchieff/annanekrasova">https://github.com/anchieff/runsmart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="courses" id="courses">
+    <div class="container">
+      <h2 class="title title_h2 courses__title">Courses</h2>
+      <ul class="courses__list">
+        <li class="courses__item">Modern React with Redux (<span>Stephen Grider</span>)</li>
+        <li class="courses__item">The Complete JavaScript + React Course - From Scratch to Results (<span>Ivan Petrichenko</span>)</li>
+        <li class="courses__item">WEB Developer 2020 (<span>Ivan Petrichenko</span>)</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="languages" id="languages">
+    <div class="container">
+      <h2 class="title title_h2 languages__title">Languages</h2>
+      <div class="languages__wrapper">
+        <div class="languages__item">
+          <h3 class="title title_h3 languages__item-title">English</h3>
+          <div class="languages__item-level">B1</div>
+          <div class="languages__item-scale"><span></span></div>
+        </div>
+        <div class="languages__item">
+          <h3 class="title title_h3 languages__item-title">Spanish</h3>
+          <div class="languages__item-level">A1</div>
+          <div class="languages__item-scale"><span></span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrapper">
+        <div class="footer__copiright">@2021 Anna Nekrasova</div>
+      </div>
+    </div> 
+  </footer>
+  
+</body>
+</html>
